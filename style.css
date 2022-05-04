@@ -1014,7 +1014,9 @@
 .portrait {
   padding: 0px;
   width: 175px;
+  border: 11px;
 }
+
 #footer {
        position: fixed;
        text-align: center;
