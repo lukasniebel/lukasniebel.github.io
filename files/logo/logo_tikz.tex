@@ -2,16 +2,16 @@
 \usepackage{tikz}
 \usepackage{lmodern} 
 \definecolor{mycolor}{HTML}{22863a}
+\definecolor{white2}{HTML}{fafbfc}
+
 \begin{document}
 
-\def\layersep{2.5cm}
-
-
-\begin{tikzpicture}[very thick]
+\begin{tikzpicture}
 \fill [rounded corners=0.24cm, fill = mycolor] (0,0) rectangle ++(3,3);
-\node[draw=none,font=\fontsize{80pt}{0}\selectfont] at (1.2,1.5) {$\color{white}{L}$};
-\node[draw=none,font=\fontsize{50pt}{0}\selectfont] at (2.2,2.2) {$\color{white}{p}$};
+\node[draw=none,font=\fontsize{80pt}{0}\selectfont, color = white2] at (1.2,1.5) {$\color{white2}{L}$};
+\node[draw=none,font=\fontsize{50pt}{0}\selectfont] at (2.2,2.2) {$\color{white2}{p}$};
 
 \end{tikzpicture}
-    
+
+
 \end{document}
