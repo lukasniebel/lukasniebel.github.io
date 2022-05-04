@@ -666,7 +666,7 @@
   padding-left: .5em;
   text-indent: -.5em;
 }
-}
+
 
 .markdown-body hr {
   height: .25em;
@@ -1020,7 +1020,7 @@
        text-align: center;
        bottom: 0px;
        width: 100%;
-			 font-size: 10px; !important
+			 font-size: 10px; 
 }
 
 .text {
