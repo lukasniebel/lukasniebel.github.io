@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.4.26)  4 MAY 2022 17:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.4.26)  5 MAY 2022 12:49
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -299,8 +299,7 @@ File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 File: l3backend-pdftex.def 2022-02-07 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count283
 \l__pdf_internal_box=\box62
-)
-No file logo_tikz.aux.
+) (./logo_tikz.aux)
 \openout1 = `logo_tikz.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
@@ -317,7 +316,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 7.
 LaTeX Font Info:    ... okay on input line 7.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 7.
 LaTeX Font Info:    ... okay on input line 7.
-(/usr/local/texlive/2022/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+ (/usr/local/texlive/2022/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count284
 \scratchdimen=\dimen191
@@ -336,45 +335,45 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (/usr/local/texlive/2022/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-LaTeX Font Info:    Calculating math sizes for size <80> on input line 11.
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 11.
+LaTeX Font Info:    Calculating math sizes for size <80> on input line 12.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 12.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 11.
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 12.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 11.
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 12.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <80> on input line 11.
+(Font)              <80> on input line 12.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <55.99976> on input line 11.
+(Font)              <55.99976> on input line 12.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <40> on input line 11.
-LaTeX Font Info:    Calculating math sizes for size <50> on input line 12.
+(Font)              <40> on input line 12.
+LaTeX Font Info:    Calculating math sizes for size <50> on input line 13.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <50> on input line 12.
+(Font)              <50> on input line 13.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <34.99985> on input line 12.
+(Font)              <34.99985> on input line 13.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <25> on input line 12.
+(Font)              <25> on input line 13.
  [1
 
 {/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./logo_tikz.aux) ) 
 Here is how much of TeX's memory you used:
- 12443 strings out of 478268
- 261282 string characters out of 5846347
- 516074 words of memory out of 5000000
- 30440 multiletter control sequences out of 15000+600000
+ 12441 strings out of 478268
+ 261206 string characters out of 5846347
+ 516065 words of memory out of 5000000
+ 30436 multiletter control sequences out of 15000+600000
  494170 words of font info for 48 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  115i,7n,118p,411b,591s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmmi12.pfb>
-Output written on logo_tikz.pdf (1 page, 5637 bytes).
+Output written on logo_tikz.pdf (1 page, 5575 bytes).
 PDF statistics:
  17 PDF objects out of 1000 (max. 8388607)
  11 compressed objects within 1 object stream
