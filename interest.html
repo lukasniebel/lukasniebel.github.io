@@ -59,6 +59,11 @@
 			  }
 			};
 			</script>
+		<script type="text/x-mathjax-config">
+			MathJax.Hub.Config({
+			  TeX: { equationNumbers: { autoNumber: "AMS" } }
+			});
+			</script>	
 		<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 		<script id="MathJax-script" async
 				src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
@@ -85,37 +90,74 @@
 
 						  <p><a href="index.html">Home</a>&nbsp; &nbsp; | &nbsp; &nbsp; <a href="interest.html">Research</a> &nbsp; &nbsp; | &nbsp; &nbsp; <a href="research.html">Publications</a>  &nbsp; &nbsp; | &nbsp; &nbsp; <a href="cv.html">CV</a> &nbsp; &nbsp; | &nbsp; &nbsp; <a href="else.html">Misc</a>  &nbsp; &nbsp; | &nbsp; &nbsp; <a href="https://scholar.google.com/citations?user=DsXM_UcAAAAJ&hl=en">Google Scholar</a></p> <br>
 						</div>
-					
-				
-				<h4>Kinetic maximal \(L^p\)-regularity</h4> 
-				Together with Rico Zacher I am working on the $L^p$-regularity theory of linear kinetic PDE such as the fractional Kolmogrovo equation 
-				<br> 
-				<div class ="text">$\begin{cases} \partial_t u +v \cdot \nabla_x u = -(-\Delta_v)^{\beta/2} u + f \\
-					u(0) = g \end{cases}$</div>
-					<br> 
-				with $\beta \in (0,2)$ and data $f$ and $g$. We characterize the existence of unqiue solutions in terms of conditions on the data $f$ and $g$ and call this property <i>Kinetic maximal $L^p$-regularity</i>. 
-				A nice property of this ansatz is that solutions form a semi-flow, in particular, $g \in X_\gamma$ implies $u(t) \in X_\gamma$.  
-				Kinetic maximal $L^p$-regularity of the Kolmogorov equation can be extended to related equations with variable coefficients and even more general diffusion operators. 
-				We are mainly interested in variants of Lebesgue spaces, including $L^p$ spaces with temporal and spatial weights. 
-				
-				<h4>Quasilinear kinetic PDE </h4>
-				The findings on the $L^p$-theory of linear kinetic PDE can be applied to study quasilinear equations. For example one can easily show the existence of a short time solution to the kinetic toy model 
-				
-				<br>  $ $
+						<p align = "justify">
+						My research interests lie in studying linear and nonlinear partial differential equations arising in kinetic theory. During my PhD, I conducted research on the regularity theory of kinetic linear equations related to the (fractional) Kolmogorov equation
+						\begin{equation} \tag{1}
+						\begin{cases}\partial_t u + v \cdot \nabla_x u = -(-\Delta_v)^{\beta/2} u + f \\
+							u(0) = g  \end{cases}
+						\end{equation}
+						and (non-) linear variants. Together with my advisor Prof. Rico Zacher, we characterize the existence of unique strong $L^p$-solutions to (1) in terms of function spaces for the data $f$ and $g$. This allows for studying a wide class of nonlinear kinetic PDE. Moreover, we study a priori Hölder-estimates such as the kinetic analog of the celebrated De Giorgi-Nash-Moser theory. We apply these findings to study $L^p$-solutions of nonlinear kinetic equations and aim to apply the findings to more sophisticated equations such as the Boltzmann and Landau equation in the future. I briefly describe my scientific work in the following.
+						</p>
+						
+						<h4>Kinetic Maximal $L^p$-Regularity</h4>
+						<p align = "justify">
+						In [N., Zacher 2021 and 2022] we introduce the notion of kinetic maximal $L^p$-regularity. Let $A$ be a linear operator with domain $D(A)$ in some Banach space $X$ of functions depending on $(x,v)\in \mathbb{R}^{2d}$. Let further $p\in (1,\infty)$ and $T>0$. We say that $A$ admits kinetic maximal $L^p((0,T);X)$-regularity if for all $f\in L^p((0,T);X)$ there exists a unique distributional solution $u\in L^p((0,T);X)$ of the problem
+						\begin{equation} 
+						\begin{cases}\partial_t u + v \cdot \nabla_x u -Au=f,\quad t\in (0,T),\, x,v\in \mathbb{R}^d \\
+							u(0) = 0,\quad x,v\in \mathbb{R}^d, \end{cases}
+						\end{equation}
+						such that $\partial_t u + v \cdot \nabla_x u\in L^p((0,T);X)$ and $Au \in L^p((0,T);X)$. In [N., Zacher 2022] we have been mainly working with $X = L^q(\mathbb{R}^{2d})$ for some $q \in (1,\infty)$, which corresponds to strong $L^p$-solutions. Consider $A = -(-\Delta_v)^{\beta/2}$ for $\beta \in (0,2]$, then $A$ admits kinetic maximal $L^p(L^q)$-regularity. 
+						<br>
+						Besides the property of kinetic maximal $L^p$-regularity, which takes care of the right-hand side $f$ in the kinetic equation,
+						it is also crucial to characterise the trace space of the problem, i.e. to find (regularity) conditions on the initial
+						value $g$, which are necessary and sufficient for the corresponding solution of the problem (with $f=0$) to lie in the
+						described kinetic maximal $L^{p}((0,T);L^q(\mathbb{R}^{2d}))$-regularity class. Using methods from Harmonic analysis we were able
+						to characterise the trace space for the Kolmogorov equation (1) with $\beta\in (0,2]$ in terms of anisotropic Besov spaces. Combined with the kinetic maximal regularity property,
+						this leads to the following characterisation. Setting $Y:=L^{p}((0,T);L^q(\mathbb{R}^{2d}))$ problem (1) possesses a unique solution 
+						\begin{equation} 
+						u\in Z:=\big\{u\in Y:\,\partial_t u + v \cdot \nabla_x u\in Y\;\mbox{and}\;(-\Delta_v)^\frac{\beta}{2} u\in Y\big\}
+						\end{equation}
+						if and only if $f\in Y$ and $g$ belongs to the anisotropic Besov space
+						\begin{equation} 
+						X_{\gamma}:=B_{qp,x}^{\frac{\beta}{\beta+1}(1-\frac{1}{p})}(\mathbb{R}^{2d})\cap B_{qp,v}^{{\beta}(1-\frac{1}{p})}(\mathbb{R}^{2d}).
+						\end{equation}
+						Moreover, the solution space $Z$ embeds continuously into the space
+						$C([0,T];X_{\gamma})$, which in particular means that the solutions of 
+						(1) with $f=0$ and $g\in X_{\gamma}$ define a semi-flow in the trace space $X_{\gamma}$. 
+						<br>
+						We extend these results in several directions such as different choices for the base space $X$, i.e. anisotropic Sobolev spaces of possibly negative order and Lebesgue spaces with polynomial weights in $x$ and $v$. Moreover, we introduce temporal weights of the form $t^{1-\mu}$ with $\mu \in (1/p,1]$, which allows considering initial values with less regularity and observing instantaneous regularisation. 
+						
 
-				<div class ="text">$\begin{cases} \partial_t u +v \cdot \nabla_x u = \rho(u) \Delta_v u\\
-					u(0) = g \end{cases}$</div>
-					<br> 
-				with $\rho(u) =  \int_{\mathbb{R}^n} \, u \mathrm{d}v $ in weighted $L^p$-spaces. We aim to apply this method to more complicated nonlinear kinetic PDE. 
-
-				<h4>A priori estimates for kinetic PDE</h4>
-				Studying solutions of nonlinear kinetic PDE, a priori estimates such as Harnack inequalities turn out to be very useful. A Harnack inequality for the Kolmogorov equation has been proven very recently. 
-				We are interested in applying Harnack inequalities, and similar a priori estimates to understand the behavior of solutions to nonlinear kinetic PDE. 
-				
+						<br>	
+						Clearly, the fractional Laplacian in velocity is not the only operator with the property of kinetic maximal $L^p$-regularity and more complicated operators can be treated. For example $A = a(t,x,v) \colon \nabla_v^2$, where $a$ is an elliptic, bounded and measurable map of symmetric matrices. If $a(t,x,v)$ or $(t,x,v) \mapsto a(t,x+tv,v)$ is uniformly continuous, then $A$ admits kinetic maximal $L^p(L^q)$-regularity. This can be extended to coefficients, which are not necessarily uniformly elliptic. In [N. 2022] we consider a fractional Laplacian with variable density, i.e. 
+						\begin{equation*}
+							[A u](t,x,v) = \mathrm{p.v.} \int_{\mathbb{R}^d} ({u(t,x,v+h)-u(t,x,v)}) \frac{a(t,x,v,h)}{|h|^{d+\beta}} \mathrm{d} h.
+						\end{equation*}
+						</p>
+						<h4>Nonlinear Kinetic Equations</h4>
+						<p align = "justify">
+						The precise solution theory given by kinetic maximal $L^p$-regularity allows to study quasilinear kinetic problems of the form 
+						\begin{equation} \tag{2}
+							\begin{cases}
+								\partial_t u +v \cdot \nabla_x u = A(u) u + F(u) \\
+								u(0) = g.
+							\end{cases}
+						\end{equation}
+						Assume that $A(g)$ admits kinetic maximal $L^p$-regularity and the mappings $A, F$ satisfy a local Lipschitz condition. Then, there exists a short-time solution to (5). In particular, solutions depend continuously on the initial value and define a semi-flow. This has been proven in [N., Zacher 2022] in a very general setting.  
+						<br>
+						In [N., Zacher 2022] we prove short time existence of solutions to a family of quasilinear kinetic diffusion problems with $A(u) = \nabla_v (a(u) \nabla_v u) $ and suitable $a \colon \mathbb{R} \to (0,\infty)$. Moreover, we study the kinetic toy model 
+						\begin{equation*}
+							\begin{cases}
+								\partial_t u +v \cdot \nabla_x u = M(u) \, \Delta_v u \\
+								u(0) = g.
+							\end{cases}
+						\end{equation*}
+						with $M(u)(t,x) = \int_{\mathbb{R}^d} u(t,x,v) \, \mathrm{d} v$. We prove short time existence of solutions and characterize the maximal interval of existence in terms of the local mass. To achieve the latter, we use the a priori Hölder estimates. 
+						</p>				
 				<br>
 				<br>
 				<br>
 				<br>
-				<br> I am happy to discuss anything, so don't hesitate to ask me any questions. 
+				<br> I am happy to discuss anything, so don't hesitate to contact me with any question or suggestion.  
 
 				
