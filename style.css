@@ -1,3 +1,8 @@
+html,
+body {
+  background-color: #faf9f9;
+}
+
 .column {
  float: left;
  width: 50%;
