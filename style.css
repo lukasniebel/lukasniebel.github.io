@@ -1023,11 +1023,11 @@ body {
 }
 
 #footer {
-       position: fixed;
-       text-align: center;
-       bottom: 0px;
-       width: 100%;
-			 font-size: 10px; 
+  position: static;
+  clear: both;
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 10px;
 }
 
 .text {
