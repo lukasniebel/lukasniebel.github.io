@@ -1,22 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
-  <title>Lukas Niebel monogram</title>
-  <g stroke="#2440C0" stroke-linecap="round" stroke-linejoin="round">
-    <path transform="translate(-75.74 -91.24) scale(.62)" stroke-width="3"
-      d="M 148.7 202.5
-         C 139.4 199.6 144.0 214.0 159.2 212.7
-         C 171.6 212.4 182.2 206.5 184.4 204.7
-         C 188.7 200.9 180.7 205.0 175.9 211.2
-         C 166.6 221.7 150.4 237.1 138.4 243.4
-         C 126.0 249.6 123.8 243.8 134.1 237.5
-         C 144.3 231.1 151.0 228.3 155.0 232.7
-         C 157.3 235.3 156.7 238.3 163.2 237.0"/>
-    <path transform="translate(-129.5 -149.25) scale(.75)" stroke-width="2.6"
-      d="M 222.0 242.0
-         C 229.3 238.3 240.0 226.8 245.4 215.5
-         C 248.2 209.7 247.8 202.5 244.8 203.0
-         C 239.4 202.0 232.6 215.2 232.3 225.0
-         C 232.0 232.3 234.0 237.6 238.5 234.1
-         C 244.3 229.5 251.4 215.5 251.8 207.8
-         C 251.9 206.4 251.0 205.2 249.3 205.7"/>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>Lukas Niebel signature initial</title>
+  <rect width="64" height="64" fill="#2440C0"/>
+  <path transform="translate(-96.222557 -151.480852) scale(0.818811)"
+    fill="none" stroke="#fff" stroke-width="3"
+    stroke-linecap="round" stroke-linejoin="round"
+    d="M 148.7 202.5          C 139.4 199.6 144.0 214.0 159.2 212.7          C 171.6 212.4 182.2 206.5 184.4 204.7          C 188.7 200.9 180.7 205.0 175.9 211.2          C 166.6 221.7 150.4 237.1 138.4 243.4          C 126.0 249.6 123.8 243.8 134.1 237.5          C 144.3 231.1 151.0 228.3 155.0 232.7          C 157.3 235.3 156.7 238.3 163.2 237.0"/>
 </svg>
