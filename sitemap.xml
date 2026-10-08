@@ -1,102 +1,117 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
-
-<url>
-  <loc>https://lukasniebel.github.io/</loc>
-  <lastmod>2022-06-15T17:36:57+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://lukasniebel.github.io/index.html</loc>
-  <lastmod>2022-06-15T17:36:57+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://lukasniebel.github.io/interest.html</loc>
-  <lastmod>2022-06-15T17:36:57+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://lukasniebel.github.io/research.html</loc>
-  <lastmod>2022-06-15T17:36:57+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://lukasniebel.github.io/cv.html</loc>
-  <lastmod>2022-06-15T17:36:56+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://lukasniebel.github.io/else.html</loc>
-  <lastmod>2022-06-15T17:36:56+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://lukasniebel.github.io/files/documents/pesaro.pdf</loc>
-  <lastmod>2022-06-15T17:36:56+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://lukasniebel.github.io/files/documents/mk2022.pdf</loc>
-  <lastmod>2022-06-15T17:36:56+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://lukasniebel.github.io/files/documents/isem25.pdf</loc>
-  <lastmod>2022-06-15T17:36:56+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://lukasniebel.github.io/ln.html</loc>
-  <lastmod>2022-06-15T17:36:57+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://lukasniebel.github.io/files/documents/master.pdf</loc>
-  <lastmod>2022-06-15T17:36:56+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://lukasniebel.github.io/files/documents/bachelor.pdf</loc>
-  <lastmod>2022-06-15T17:36:56+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://lukasniebel.github.io/files/documents/gelfand.pdf</loc>
-  <lastmod>2022-06-15T17:36:56+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://lukasniebel.github.io/files/documents/cv.pdf</loc>
-  <lastmod>2022-06-15T17:36:56+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://lukasniebel.github.io/files/documents/essen.pdf</loc>
-  <lastmod>2022-06-15T17:36:56+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://lukasniebel.github.io/files/documents/ulm.pdf</loc>
-  <lastmod>2022-06-15T17:36:56+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://lukasniebel.github.io/files/documents/cambridge.pdf</loc>
-  <lastmod>2022-06-15T17:36:56+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://lukasniebel.github.io/files/documents/m%C3%BCnster.pdf</loc>
-  <lastmod>2022-06-15T17:36:56+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-
-
+<?xml version='1.0' encoding='UTF-8'?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://lukasniebel.github.io/</loc>
+  </url>
+  <url>
+    <loc>https://lukasniebel.github.io/research.html</loc>
+  </url>
+  <url>
+    <loc>https://lukasniebel.github.io/talks.html</loc>
+  </url>
+  <url>
+    <loc>https://lukasniebel.github.io/else.html</loc>
+  </url>
+  <url>
+    <loc>https://lukasniebel.github.io/ln.html</loc>
+  </url>
+  <url>
+    <loc>https://lukasniebel.github.io/files/documents/bachelor.pdf</loc>
+  </url>
+  <url>
+    <loc>https://lukasniebel.github.io/files/documents/cambridge.pdf</loc>
+  </url>
+  <url>
+    <loc>https://lukasniebel.github.io/files/documents/cv.pdf</loc>
+  </url>
+  <url>
+    <loc>https://lukasniebel.github.io/files/documents/essen.pdf</loc>
+  </url>
+  <url>
+    <loc>https://lukasniebel.github.io/files/documents/gelfand.pdf</loc>
+  </url>
+  <url>
+    <loc>https://lukasniebel.github.io/files/documents/isem25.pdf</loc>
+  </url>
+  <url>
+    <loc>https://lukasniebel.github.io/files/documents/master.pdf</loc>
+  </url>
+  <url>
+    <loc>https://lukasniebel.github.io/files/documents/mk2022.pdf</loc>
+  </url>
+  <url>
+    <loc>https://lukasniebel.github.io/files/documents/m%C3%BCnster.pdf</loc>
+  </url>
+  <url>
+    <loc>https://lukasniebel.github.io/files/documents/notes_dortmund_1025.pdf</loc>
+  </url>
+  <url>
+    <loc>https://lukasniebel.github.io/files/documents/pesaro.pdf</loc>
+  </url>
+  <url>
+    <loc>https://lukasniebel.github.io/files/documents/poster_bubbles_0925.pdf</loc>
+  </url>
+  <url>
+    <loc>https://lukasniebel.github.io/files/documents/poster_kinetic_0425.pdf</loc>
+  </url>
+  <url>
+    <loc>https://lukasniebel.github.io/files/documents/poster_ulmcirm.pdf</loc>
+  </url>
+  <url>
+    <loc>https://lukasniebel.github.io/files/documents/slides_bonn_0924.pdf</loc>
+  </url>
+  <url>
+    <loc>https://lukasniebel.github.io/files/documents/slides_chicago_0526_1.pdf</loc>
+  </url>
+  <url>
+    <loc>https://lukasniebel.github.io/files/documents/slides_chicago_0526_2.pdf</loc>
+  </url>
+  <url>
+    <loc>https://lukasniebel.github.io/files/documents/slides_dortmund_1025.pdf</loc>
+  </url>
+  <url>
+    <loc>https://lukasniebel.github.io/files/documents/slides_erlangen_0323.pdf</loc>
+  </url>
+  <url>
+    <loc>https://lukasniebel.github.io/files/documents/slides_isu_0426.pdf</loc>
+  </url>
+  <url>
+    <loc>https://lukasniebel.github.io/files/documents/slides_kit_0525.pdf</loc>
+  </url>
+  <url>
+    <loc>https://lukasniebel.github.io/files/documents/slides_mpi_0923.pdf</loc>
+  </url>
+  <url>
+    <loc>https://lukasniebel.github.io/files/documents/slides_munster_1024.pdf</loc>
+  </url>
+  <url>
+    <loc>https://lukasniebel.github.io/files/documents/slides_noko1025.pdf</loc>
+  </url>
+  <url>
+    <loc>https://lukasniebel.github.io/files/documents/slides_orsay_1123.pdf</loc>
+  </url>
+  <url>
+    <loc>https://lukasniebel.github.io/files/documents/slides_phd_0623.pdf</loc>
+  </url>
+  <url>
+    <loc>https://lukasniebel.github.io/files/documents/slides_rage_0623.pdf</loc>
+  </url>
+  <url>
+    <loc>https://lukasniebel.github.io/files/documents/slides_tulane_0426.pdf</loc>
+  </url>
+  <url>
+    <loc>https://lukasniebel.github.io/files/documents/slides_tulkka_0223.pdf</loc>
+  </url>
+  <url>
+    <loc>https://lukasniebel.github.io/files/documents/slides_ulm.pdf</loc>
+  </url>
+  <url>
+    <loc>https://lukasniebel.github.io/files/documents/slides_ulm_0326.pdf</loc>
+  </url>
+  <url>
+    <loc>https://lukasniebel.github.io/files/documents/slides_wwu_0423.pdf</loc>
+  </url>
+  <url>
+    <loc>https://lukasniebel.github.io/files/documents/ulm.pdf</loc>
+  </url>
 </urlset>
