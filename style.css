@@ -1030,6 +1030,10 @@ body {
   font-size: 10px;
 }
 
+#footer.home-footer {
+  margin-top: 4rem;
+}
+
 .text {
     
     text-align: center;
