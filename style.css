@@ -1022,10 +1022,28 @@ body {
   border: 11px;
 }
 
+body.markdown-body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  min-height: 100dvh;
+}
+
+body.markdown-body > .row {
+  flex-shrink: 0;
+}
+
+body.markdown-body::before,
+body.markdown-body::after {
+  display: none;
+}
+
 #footer {
   position: static;
   clear: both;
-  margin-top: 2rem;
+  flex-shrink: 0;
+  margin-top: auto;
+  padding-top: var(--footer-gap, 4rem);
   text-align: center;
   font-size: 10px;
 }
