@@ -8,10 +8,6 @@
   <link rel="canonical" href="https://lukasniebel.github.io/files/documents/cv_niebel.pdf">
   <link rel="icon" type="image/x-icon" sizes="16x16 32x32 48x48 64x64" href="favicon.ico?v=l-round-27ac13-1">
   <link rel="icon" type="image/svg+xml" sizes="any" href="favicon.svg?v=l-round-27ac13-1">
-  <script>
-    window.location.replace("files/documents/cv_niebel.pdf" + window.location.search + window.location.hash);
-  </script>
-  <noscript><meta http-equiv="refresh" content="0; url=files/documents/cv_niebel.pdf"></noscript>
   <style>
     html, body { margin: 0; background: #faf8f3; }
     body {
@@ -34,7 +30,7 @@
     }
     .home-link { display: inline-flex; align-items: center; gap: 8px; }
     .home-link img { width: 24px; height: 24px; }
-    main { flex: 1; padding: 16px; }
+    iframe { flex: 1; min-height: 0; width: 100%; border: 0; }
     #footer { position: static; padding: 12px 16px; text-align: center; font-size: 10px; line-height: 1.5; }
   </style>
 </head>
@@ -43,9 +39,7 @@
     <a class="home-link" href="index.html"><img src="favicon.svg?v=l-round-27ac13-1" alt="">Home</a>
     <a href="files/documents/cv_niebel.pdf" download>Download CV (PDF)</a>
   </nav>
-  <main>
-    <p>Opening the curriculum vitae. <a href="files/documents/cv_niebel.pdf">Open CV (PDF)</a>.</p>
-  </main>
+  <iframe src="files/documents/cv_niebel.pdf" title="Lukas Niebel's curriculum vitae"></iframe>
   <footer id="footer">
     <a href="ln.html">Legal notice.</a> Personalized version of <a href="https://enalisnick.github.io/">Eric Nalisnick</a>'s website theme. ChatGPT was used to modify the webpage.
   </footer>
