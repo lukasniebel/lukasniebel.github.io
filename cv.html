@@ -30,7 +30,7 @@
     }
     .home-link { display: inline-flex; align-items: center; gap: 8px; }
     .home-link img { width: 24px; height: 24px; }
-    iframe { flex: 1; min-height: 0; width: 100%; border: 0; }
+    object { flex: 1; min-height: 0; width: 100%; border: 0; }
     #footer { position: static; padding: 12px 16px; text-align: center; font-size: 10px; line-height: 1.5; }
   </style>
 </head>
@@ -39,7 +39,9 @@
     <a class="home-link" href="index.html"><img src="favicon.svg?v=l-round-27ac13-1" alt="">Home</a>
     <a href="files/documents/cv_niebel.pdf" download>Download CV (PDF)</a>
   </nav>
-  <iframe src="files/documents/cv_niebel.pdf" title="Lukas Niebel's curriculum vitae"></iframe>
+  <object data="files/documents/cv_niebel.pdf" type="application/pdf" title="Lukas Niebel's curriculum vitae">
+    <p><a href="files/documents/cv_niebel.pdf" download>Download CV (PDF)</a></p>
+  </object>
   <footer id="footer">
     <a href="ln.html">Legal notice.</a> Personalized version of <a href="https://enalisnick.github.io/">Eric Nalisnick</a>'s website theme. ChatGPT was used to modify the webpage.
   </footer>
